@@ -1,13 +1,12 @@
 class Rhebok < Formula
   desc "Local semantic search over your notes and past sessions for coding agents"
   homepage "https://github.com/Stellenbosch-Technologies/rhebok"
-  version "0.2.0"
+  url "https://github.com/Stellenbosch-Technologies/rhebok/releases/download/v0.2.0/rhebok-aarch64-apple-darwin.tar.gz"
+  sha256 "5ef360997d047f9d78daadd2676c7f672203755278045299c67c1bd50a5480e1"
   license "AGPL-3.0-only"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/Stellenbosch-Technologies/rhebok/releases/download/v0.2.0/rhebok-aarch64-apple-darwin.tar.gz"
-    sha256 "5ef360997d047f9d78daadd2676c7f672203755278045299c67c1bd50a5480e1"
   end
 
   on_linux do
